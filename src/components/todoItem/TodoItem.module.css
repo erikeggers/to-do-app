@@ -54,6 +54,7 @@
 .menu {
 	position: relative;
 	cursor: pointer;
+	height: 22px;
 }
 
 .menuDropdown {
