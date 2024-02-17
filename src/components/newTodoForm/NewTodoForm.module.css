@@ -1,0 +1,42 @@
+
+
+.newTodoForm {
+	display: grid;
+	grid-template-columns: 1fr max-content;
+	margin-top: 20px;
+	padding: 5px;
+	padding-left: 20px;
+	border-radius: 999px;
+	background-color: #ffffff;
+	grid-gap: 10px;
+	gap: 10px;
+}
+
+.newTodoInput {
+	width: 100%;
+	padding: 0;
+	border: none;
+	outline: none;
+	box-shadow: none;
+	border-radius: 0;
+	font-size: 16px;
+	appearance: none;
+}
+
+.newTodoInput::placeholder {
+	color: #BCBCBC;
+	font-family: "Roboto", sans-serif;
+}
+
+.addTodoButton {
+	width: 100%;
+	padding: 8px 15px;
+	border: none;
+	border-radius: 999px;
+	background-color: #526f92;
+	font-family: "Roboto", sans-serif;
+	box-shadow: none;
+	color: #fff;
+	font-size: 14px;
+	appearance: none;
+}

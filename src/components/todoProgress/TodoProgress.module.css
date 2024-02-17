@@ -1,0 +1,27 @@
+.progressWrapper {
+	display: flex;
+	flex-direction: column;
+	background-color: #576371;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.progressBarOutter {
+	max-width: 480px;
+	overflow: hidden;
+	width: 100%;
+	border-radius: 999px;
+	background-color: #fff;
+}
+
+.progressBarInner {
+	height: 7px;
+	transition: width 0.3s ease-in-out;
+	border-radius: 999px;
+	background-color: #60c6ff;
+}
+
+.completedText {
+	color: #e0e0e0;
+	margin-top: 10px;
+}

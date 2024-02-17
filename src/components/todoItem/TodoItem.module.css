@@ -1,0 +1,77 @@
+.todoItemWrapper {
+	display: grid;
+	grid-template-columns: max-content 1fr max-content;
+	gap: 20px;
+	align-items: center;
+	padding: 10px 20px;
+	background: #ffffff;
+	border-radius: 999px;
+	margin-top: 10px;
+}
+
+.todoItemWrapper input[type="checkbox"] {
+	appearance: none;
+	border: 2px solid #526f92;
+	border-radius: 6px;
+	width: 22px;
+	height: 22px;
+	cursor: pointer;
+	outline: none;
+}
+
+.todoItemWrapper input[type="checkbox"]:checked {
+	background-color: #526f92;
+	background-image: url("../../../public/checkmark.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 11px 12px;
+}
+
+.todoItemText {
+	color: #2E2E2E;
+}
+
+.todoItemTextComplete {
+	text-decoration: line-through;
+	color: #a9a9a9;
+}
+
+.editInput {
+	width: 0px;
+	padding: 10px 20px;
+	border: 2px solid #526f92;
+	border-radius: 999px;
+	outline: none;
+	font-size: 16px;
+	appearance: none;
+	transition: width 0.3s ease;
+}
+
+.editInput:focus {
+	width: 100%;
+}
+
+.menu {
+	position: relative;
+	cursor: pointer;
+}
+
+.menuDropdown {
+	position: absolute;
+	top: 28px;
+	right: 0;
+	padding: 10px;
+	background-color: #ffffff;
+	border-radius: 10px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+	z-index: 2;
+}
+
+.menuDropdown p {
+	padding: 5px 10px;
+	border-radius: 5px;
+	color: #E07C7C;
+	font-size: 14px;
+	cursor: pointer;
+	white-space: nowrap;
+}

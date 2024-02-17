@@ -1,0 +1,43 @@
+.filterWrapper {
+	position: relative;
+}
+
+.filterSelect {
+	display: block;
+	width: 110px;
+	padding: 10px;
+	background: #ffffff;
+	border-radius: 10px;
+	font-size: 14px;
+	font-weight: 400;
+	cursor: pointer;
+}
+
+.filterSelect svg {
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.filterDropdown {
+	display: grid;
+	position: absolute;
+	width: 100%;
+	top: 40px;
+	right: 0;
+	padding: 10px;
+	background-color: #ffffff;
+	border-radius: 10px;
+	box-shadow: 0 0 8px rgba(0,0,0,.1);
+}
+
+.filterDropdown p {
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+
+.filterOptionActive {
+	background-color: #526f92;
+	color: #ffffff;
+}
